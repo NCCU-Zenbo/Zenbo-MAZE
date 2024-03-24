@@ -1,0 +1,672 @@
+{
+
+    "infos": {
+        "width": 11,
+        "height": 13
+        
+    },
+    "wall": [
+        {
+            "coordinate": [0, 0],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [0, 1],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [0, 2],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [0, 3],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [0, 4],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [0, 6],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [0, 7],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [0, 8],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [0, 9],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [0, 10],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [1, 0],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [1, 4],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [1, 5],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [1, 6],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [1, 7],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [2, 1],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [2, 2],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [2, 4],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [2, 9],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [2, 10],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [3, 3],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [3, 4],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [3, 5],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [3, 7],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [3, 8],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [3, 9],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [4, 0],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [4, 2],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [4, 3],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [4, 5],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [4, 6],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [4, 9],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [4, 10],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [5, 1],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [5, 3],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [5, 4],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [5, 6],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [5, 7],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [5, 8],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [5, 9],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [5, 10],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [6, 2],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [6, 3],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [6, 4],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [6, 5],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [6, 7],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [7, 1],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [7, 2],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [8, 0],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [8, 1],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [8, 4],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [8, 5],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [8, 6],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [8, 8],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [8, 9],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [9, 1],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [9, 2],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [9, 3],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [9, 4],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [9, 7],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [10, 4],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [10, 5],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [10, 6],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [10, 7],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [10, 8],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [10, 10],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [11, 1],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [11, 3],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [11, 4],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [11, 5],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [11, 6],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [11, 7],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [11, 8],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [11, 9],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [12, 1],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [12, 2],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [12, 7],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [12, 8],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [12, 9],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [13, 0],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [13, 1],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [13, 2],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [13, 3],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [13, 4],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [13, 6],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [13, 7],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [13, 8],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [13, 9],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [13, 10],
+            "isHorizontal": true
+        },
+        {
+            "coordinate": [0, 0],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [0, 3],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [0, 10],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [0, 11],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [1, 0],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [1, 2],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [1, 3],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [1, 4],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [1, 8],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [1, 9],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [1, 11],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [2, 0],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [2, 1],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [2, 2],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [2, 6],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [2, 8],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [2, 11],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [3, 0],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [3, 2],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [3, 4],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [3, 7],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [3, 11],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [4, 0],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [4, 2],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [4, 5],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [4, 8],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [4, 11],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [5, 0],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [5, 3],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [5, 6],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [5, 9],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [5, 11],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [6, 0],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [6, 1],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [6, 5],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [6, 7],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [6, 8],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [6, 9],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [6, 10],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [6, 11],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [7, 0],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [7, 3],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [7, 4],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [7, 6],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [7, 7],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [7, 8],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [7, 10],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [7, 11],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [8, 0],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [8, 3],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [8, 7],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [8, 9],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [8, 11],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [9, 0],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [9, 1],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [9, 2],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [9, 4],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [9, 6],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [9, 9],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [9, 10],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [9, 11],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [10, 0],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [10, 2],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [10, 3],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [10, 11],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [11, 0],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [11, 2],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [11, 4],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [11, 6],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [11, 10],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [11, 11],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [12, 0],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [12, 3],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [12, 5],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [12, 6],
+            "isHorizontal": false
+        },
+        {
+            "coordinate": [12, 11],
+            "isHorizontal": false
+        }
+    ]
+    
+
+}

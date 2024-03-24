@@ -1,0 +1,89 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" />
+        
+        <meta name="theme-color" content="#0281b7">
+        <meta name="theme-color" content="#ecd96f" media="(prefers-color-scheme: light)">
+        <meta name="theme-color" content="#0b3e05" media="(prefers-color-scheme: dark)">
+        <!-- Icons and Colors -->
+        <link rel="icon" type="image/png" href="{% static 'img/apple-touch-icon-180x180.png' %}">
+        <link rel="mask-icon" href="{% static 'img/maskable_icon.png' %}"> 
+        <link rel="apple-touch-icon" sizes="180x180" href="{% static 'img/apple-touch-icon.png' %}">
+        <link rel="icon" type="image/png" sizes="180x180" href="{% static 'img/apple-touch-icon-180x180.png' %}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{% static 'img/favicon-32x32.png' %}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{% static 'img/favicon-16x16.png' %}">
+        <link rel="manifest" href="{% static 'manifest.json' %}">
+        <link rel="mask-icon" href="{% static 'img/safari-pinned-tab.svg' %}" color="#000000">
+        <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}">
+        <meta name="msapplication-TileColor" content="#000000">
+        <meta name="msapplication-TileImage" content="{% static 'img/mstile-144x144.png' %}">
+        <meta name="msapplication-config" content="{% static 'browserconfig.xml' %}">
+        <meta name="theme-color" content="#000000">
+        
+        <!-- SEO and Social Sharing and SEO -->
+        <meta name="description" content="Zenbo MAZE Project" />
+        <meta name="robots" content="noodp" />
+        <meta name="author" content="NCCU Zenbo Team">
+        <meta name="keywords" content="zenbo maze project, zenbo, maze, zenbo junior, zenbo junior ii, pwa" />
+        <meta property="og:locale" content="zh_TW" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Zenbo MAZE" />
+        <meta property="og:description" content="Zenbo MAZE Project" />
+        <meta property="og:url" content="https://django.dddanielliu.com/" />
+        <meta property="og:site_name" content="Zenbo MAZE" />
+        <!-- <meta property="section:publisher" content="https://www.facebook.com/zenbo-maze/" /> -->
+        <meta property="og:image" content="{% static 'img/share.jpg' %}" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Zenbo MAZE" />
+        <meta name="twitter:description" content="Zenbo MAZE Project" />
+        <!-- <meta name="twitter:site" content="@simplepwa" /> -->
+        <meta name="twitter:image" content="{% static 'img/share.jpg' %}" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+        <link rel="stylesheet" type="text/css" href="{% static 'maze/main.css' %}">
+        {% if title %}
+            <title>Zenbo Maze - {{ title }}</title>
+        {% else %}
+            <title>Zenbo Maze</title>
+        {% endif%}
+    </head>
+    <body>
+        <header class="site-header">
+            <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+                <div class="container">
+                <a class="navbar-brand mr-4" href="{% url 'maze-home' %}">Zenbo Maze Project</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggle">
+                    <div class="navbar-nav mr-auto">
+                    <a class="nav-item nav-link" href="{% url 'maze-home' %}">Home</a>
+                    <a class="nav-item nav-link" href="{% url 'maze-play' %}">Play</a>
+                    <a class="nav-item nav-link" href="{% url 'maze-test' %}">test</a>
+                    </div>
+                    <!-- Navbar Right Side -->
+                    <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#">Login</a>
+                    <a class="nav-item nav-link" href="#">Register</a>
+                    </div>
+                </div>
+                </div>
+            </nav>
+        </header>
+        {% block content %}{% endblock %}
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
+

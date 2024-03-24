@@ -1,0 +1,35 @@
+{% extends "maze/base.html" %}
+{% load static %}
+{% block content %}
+    <h1>Maze Play</h1>
+    {% for post in posts %}
+        <h3>{{ post.Name }}</h3>
+        <p>{{ post.content }} on {{ post.date }}</p>
+    {% endfor %}
+    <!-- <svg height="200" width="300" xmlns="http://www.w3.org/2000/svg">
+        <line x1="0" y1="0" x2="300" y2="200" style="stroke:red;stroke-width:2" />
+        Sorry, your browser does not support inline SVG.
+    </svg> -->
+    <br />
+    <!-- {% for wall_coord in maze.wall_coord %} -->
+        <!-- <code>{{ wall_coord }}</code> -->
+        <!-- <code>{{ wall_coord.x1 }} {{ wall_coord.y1 }} {{ wall_coord.x2 }} {{ wall_coord.y2 }}</code> -->
+        <!-- <code>{{ wall.isHorizontal }}</code> -->
+        <!-- <br /> -->
+    <!-- {% endfor %} -->
+    <p>svg {{ maze.svg.width }} x {{ maze.svg.height }}</p>
+    <svg width="{{ maze.svg.width }}" height="{{ maze.svg.height }}" xmlns="http://www.w3.org/2000/svg">
+        {% for wall_coord in maze.svg.wall_coord %}
+            <line x1="{{ wall_coord.x1 }}" y1="{{ wall_coord.y1 }}" x2="{{ wall_coord.x2 }}" y2="{{ wall_coord.y2 }}" style="stroke:{{ maze.svg.color }};stroke-width:{{ maze.svg.lineWidth }}" />
+        {% endfor %}
+    </svg>
+    <!-- {% for wall in maze.wall %}
+        <code>{{ wall.coordinate }}	{{ wall.isHorizontal }}</code>
+        <br />
+    {% endfor %} -->
+    <!-- <p>{{ post.content }} on {{ post.date }}</p> -->
+    <p>canvas</p>
+    <canvas id="canvas" height="430" width="360">
+    </canvas>
+    <script src="{% static 'maze/draw.js' %}"></script>
+{% endblock content %}
